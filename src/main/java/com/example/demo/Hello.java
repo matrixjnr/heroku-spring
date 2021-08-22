@@ -11,6 +11,6 @@ public class Hello {
 
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String index(){
-		return "hello";
+		return "{message:'Welcome to this server'}";
 	}
 }
